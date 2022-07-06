@@ -2,7 +2,7 @@
 
 echo "baixando refseq"
 mkdir refseq
-wget -P ./refseq/ https://ftp.ncbi.nlm.nih.gov/refseq/release/complete/*.faa.gz
+wget -P ./refseq/ ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/*.faa.gz
 echo "refseq baixado"
 
 echo -e "\nbaixando nr"
